@@ -1,0 +1,170 @@
+## Node.js and backend
+
+- Internals and concepts
+  - Strong and weak sides of node.js: 👂 heard
+  - Stateful and stateless servers: 👂 heard
+  - Nonblocking I/O and slocking code: 👂 heard
+  - Event loop: phases: 👂 heard
+  - Event loop: microtasks and macrotasks: 👂 heard
+  - Garbage collection: 👂 heard
+  - Node.js LTS schedule: 🙋 used
+  - I/O-bound, CPU-bound, memory-bound tasks: 👂 heard
+  - Interactive applications (close to real-time): 👂 heard
+- Modularity, layers and dependencies
+  - CommonJS modules: 👂 heard
+  - ECMAScript modules: 👂 heard
+  - node:module: 👂 heard
+  - Caching in CJS and ESM: 👂 heard
+  - Modules as singletons: 👂 heard
+  - Contexts and scripts node:vm: 👂 heard
+  - Dependencies: npm, node_modules: 👂 heard
+  - Dependencies: package.json and package lock: 👂 heard
+  - Module-based permissions model: 👂 heard
+  - Isolation with modularity: 👂 heard
+  - Dependency injection: 👂 heard
+  - DI containers: 👂 heard
+  - Coupling and cohesion: 👂 heard
+  - Framework agnostic approach: 🙋 used
+- Environment
+  - Command line arguments: 🙋 used
+  - Node.js CLI: 🙋 used
+  - Process-based permissions: 🙋 used
+  - Graceful shutdown: 🙋 used
+  - Clustering: 👂 heard
+  - Watch filesystem changes with --watch: 👂 heard
+- Internal API
+  - Streams API: 👂 heard
+  - Web Streams API: 👂 heard
+  - Crypto API: 🙋 used
+  - Password hashing with node:crypto.scrypt: 👂 heard
+  - Web Crypto API: 👂 heard
+  - File system API: sync and async: 👂 heard
+  - Copy folder recursively: 👂 heard
+  - Worker threads: 👂 heard
+  - Performance hooks: 👂 heard
+  - Native fetch and nodejs/undici: 👂 heard
+  - node:async_hooks: 👂 heard
+  - AsyncLocalStorage: 👂 heard
+  - AsyncResource: 👂 heard
+  - Deprecated domain API: 🙋 used
+  - Node.js single executable: 👂 heard
+  - Stream back pressure: 👂 heard
+  - SharedArrayBuffer: 👂 heard
+  - node:worker_threads: 👂 heard
+  - node:child_process: 👂 heard
+  - MessageChannel, MessagePort: 👂 heard
+  - BroadcastChannel: 👂 heard
+  - Generating crypto random UUID: 👂 heard
+  - node:url vs new URL: 👂 heard
+  - node:assert: 👂 heard
+  - Internationalization: 🙋 used
+  - Blob, File, Buffer, node:buffer: 👂 heard
+  - Module node:zlib: 👂 heard
+- Application structure and architecture
+  - Isolation between layer: 🙋 used
+  - Multilayer approach: 🙋 used
+  - Separation of concerns: 🙋 used
+  - Inversion of control: 👂 heard
+  - Dependency injection: 🙋 used
+  - GRASP: 🙋 used
+  - SOLID: 🙋 used
+  - GoF patterns: 🙋 used
+  - Distributed systems: 👂 heard
+  - Highload applications: 🙋 used
+  - Clean architecture: 🙋 used
+  - DDD: 👂 heard
+  - Message Queue: 🙋 used
+  - CQS: 🙋 used
+  - CQRS: 🙋 used
+  - Event sourcing: 👂 heard
+  - Load balancing: 👂 heard
+  - Serverless clouds: 🙋 used
+  - FaaS clouds: 👂 heard
+  - Fat controller: 👂 heard
+  - GoF for Node.js: 👂 heard
+  - Leaking abstractions: 👂 heard
+- Network
+  - IP sticky sessions: 👂 heard
+  - Endpoint throttling: 👂 heard
+  - HTTP(S): 🙋 used
+  - TCP/SSL: 🙋 used
+  - UDP: 🙋 used
+  - TLS: 🙋 used
+  - Websocket: 🙋 used
+  - SSE: 🙋 used
+  - HTTP/3 (QUIC): 🙋 used
+  - Long polling: 👂 heard
+  - REST: 👂 heard
+  - RPC: 👂 heard
+  - Routing: 👂 heard
+  - DoS: 👂 heard
+  - DDoS: 👂 heard
+  - XSS: 👂 heard
+  - Path traversal: 👂 heard
+  - CSRF: 👂 heard
+  - DNS: 🙋 used
+  - Fetch API: 👂 heard
+  - IncomingMessage: 👂 heard
+  - SQL injection: 👂 heard
+  - noDelay: 👂 heard
+  - keep-alive: 👂 heard
+  - ALPN: 👂 heard
+  - SNI callback: 👂 heard
+  - SSL certificates: 🙋 used
+  - Protocol agnostic approach: 👂 heard
+- Technique and tools
+  - Native test runner: 🙋 used
+  - Logging: 🙋 used
+  - Application configuring: 👂 heard
+  - Testing: 🙋 used
+  - CI/CD: 👂 heard
+  - Readable: 🙋 used
+  - Writable: 🙋 used
+  - Transform: 🙋 used
+  - back pressure: 👂 heard
+  - Buffer: 👂 heard
+  - Console: 🙋 used
+  - Inspector: 👂 heard
+  - Reliability: 🙋 used
+  - Quality: 🙋 used
+  - Availability: 🙋 used
+  - Flexibility: 🙋 used
+- Data access
+  - Data access layer: 🙋 used
+  - Repository: 🙋 used
+  - Active record: 🙋 used
+  - Query builder: 🙋 used
+  - Object-Relational Mapping: 🙋 used
+- Error handling and debugging
+  - Error: 🙋 used
+  - error.cause: 🙋 used
+  - error.code: 🙋 used
+  - error.message: 🙋 used
+  - error.stack: 🙋 used
+  - How to avoid mixins: 🙋 used
+  - Error.captureStackTrace: 👂 heard
+  - Uncaught exceptions: 👂 heard
+  - Heap dump: 👂 heard
+  - Debugging tools: 🙋 used
+  - Flame graph: 🙋 used
+  - Memory leaks: 🙋 used
+  - Resource leaks: 🙋 used
+  - Data race: 👂 heard
+- Integrations and bindings
+  - Native addons: 👂 heard
+  - C and C++ addons: 👂 heard
+  - Rust addons: 👂 heard
+  - Zig addons: 👂 heard
+  - NAN (Native Abstractions for Node.js): 👂 heard
+  - Node-API (formerly N-API): 👂 heard
+  - NAPI C and C++: 👂 heard
+  - NAPI Rust: 👂 heard
+  - NAPI Zig: 👂 heard
+  - Webassembly WAT: 👂 heard
+  - Webassembly C and C++: 👂 heard
+  - Webassembly Rust: 👂 heard
+  - Webassembly Zig: 👂 heard
+  - Webassembly AssemblyScript: 👂 heard
+  - Shared memory: 👂 heard
+  - SharedArrayBuffer: 👂 heard
+  - V8 binary serialization: 👂 heard
